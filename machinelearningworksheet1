@@ -1,0 +1,26 @@
+						Machine learning
+						
+
+1. b
+2. b
+3. b
+4. c
+5. d
+6. a
+7. b
+8. b
+9. a and b
+10. b and c
+11. a, c and d
+
+12. Which linear regression training algorithm can we use if we have a training set with millions of features?
+
+ans. ou could use batch gradient descent, stochastic gradient descent, or mini-batch gradient descent. SGD and MBGD would work the best because neither of them need to load the entire dataset into memory in order to take 1 step of gradient descent. Batch would be ok with the caveat that you have enough memory to load all the data.
+
+The normal equations method would not be a good choice because it is computationally inefficient. The main cause of the computational complexity comes from inverse operation on an (n x n) matrix.
+
+13. Which algorithms will not suffer or might suffer, if the features in training set have very different scales?
+ans. The normal equations method does not require normalizing the features, so it remains unaffected by features in the training set having very different scales.
+
+Feature scaling is required for the various gradient descent algorithms. Feature scaling will help gradient descent converge quicker.
+
