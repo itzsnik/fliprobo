@@ -1,0 +1,56 @@
+Statistics worksheet 1 Answers
+
+1.  True
+2.  Central Limit theorem
+3.  modeling bounded count data
+4.  all of the mentioned
+5.  poisson
+6.  false
+7.  Hypothesis
+8.  0
+9.  outliers cannot conform to the regression relationship
+
+
+10.  What do you understand by the term normal distribution?
+Ans. Normal distribution, also known as the Gaussian distribution, is a probability distribution that is  symmetric about the mean, showing that data near the mean are more frequent in occurrence than data far from the mean. In graph form, normal distribution will appear as a bell curve.
+
+11.  How do you handle missing data? What imputation techniques do you recommend?
+Ans. there are a lot of techinques to treat missing value. 
+     
+     a. ignore the record with the missing values.
+     b. substitute a value such as mean
+     c. predict missing values.
+      
+     some imputation techniques are:
+       1. logistic regression
+       2. discriminant regression
+  
+12.  What is A/B testing?
+ans.  A/B testing is the act of running a simultaneous experiment between two or more variants of a page to see which one performs the best.
+
+Imagine, for instance, that you want to test your hypothesis that one headline will generate more leads than another. Sure, you could just make the change and cross your fingers. But what if you’re wrong? Mistakes can get costly.
+
+By sending half your traffic to one version of the page and half to another, you can first gather evidence about which one works best before you commit to the change.
+
+Essentially, A/B testing lets you play scientist—and make decisions based on data about how people actually behave when they hit your page.
+
+
+13.  Is mean imputation of missing data acceptable practice?
+ans. false
+Bad practice in general
+If just estimating means: mean imputation preserves the mean of the observed data
+Leads to an underestimate of the standard deviation
+Distorts relationships between variables by “pulling” estimates of the correlation toward zero
+
+14.  What is linear regression in statistics?
+ans. Linear regression quantifies the relationship between one or more predictor variable(s) and one outcome variable. Linear regression is commonly used for predictive analysis and modeling. For example, it can be used to quantify the relative impacts of age, gender, and diet (the predictor variables) on height (the outcome variable).  Linear regression is also known as multiple regression, multivariate regression, ordinary least squares (OLS), and regression. This post will show you examples of linear regression, including an example of simple linear regression and an example of multiple linear regression.
+
+
+15.  What are the various branches of statistics?
+ans. The two main branches of statics are descriptive and inferential statiics.
+
+     Descriptive Statistics:
+     Descriptive statistics deals with the presentation and collection of data. This is usually the first part of a statistical analysis. 
+     
+     Referential statistics:
+     as the name suggests, involves drawing the right conclusions from the statistical analysis that has been performed using descriptive statistics. In the end, it is the inferences that make studies important and this aspect is dealt with in inferential statistics.
